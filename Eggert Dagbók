@@ -2,7 +2,17 @@
 Setti upp alla beinagrindina.
 Setti IP tölur á routerana (Skráð í .pkt)
 
+IP tölur:
+  ISP_EDGE 
+    g0/0 10.0.0.0 /30 -.3
+    g0/1 10.0.0.4 /30 -.7
+    g0/2 11.0.0.1 /29 - .7 (public)
+    
+
+
 R_ADSL: ip route 0.0.0.0  0.0.0.0 g0/1
 ISP_EDGE: ip route 0.0.0.0  0.0.0.0 g0/2
 R_FIBER: ip route 0.0.0.0  0.0.0.0 g0/0
 Ljosleidari: ip route 0.0.0.0 0.0.0.0 f4/0
+
+
