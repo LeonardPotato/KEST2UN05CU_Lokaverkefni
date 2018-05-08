@@ -23,4 +23,5 @@ ISP_EDGE: ip route 0.0.0.0  0.0.0.0 g0/2
 R_FIBER: ip route 0.0.0.0  0.0.0.0 g0/0
 Ljosleidari: ip route 0.0.0.0 0.0.0.0 f4/0
 
-
+8.mai
+lagaði routes og allskonar, setti default gateway á allt, og lagaði enn meira eftir mistök í byrjun
